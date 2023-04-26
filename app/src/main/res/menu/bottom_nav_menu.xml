@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Mapa"
+        android:icon="@drawable/ic_location"
+        android:id="@+id/maps"
+        />
+
+    <item
+        android:title="Horários"
+        android:icon="@drawable/ic_time"
+        android:id="@+id/time"
+        />
+
+    <item
+        android:title="Notificações"
+        android:icon="@drawable/ic_notifications"
+        android:id="@+id/notifications"
+        />
+
+    <item
+        android:title="Perfil"
+        android:icon="@drawable/ic_person"
+        android:id="@+id/user"
+        />
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/maps">
+    <fragment
+        android:id="@+id/maps"
+        android:name="com.mapaetec.localize_se.Maps"
+        android:label="Mapa"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/time"
+        android:name="com.mapaetec.localize_se.Time"
+        android:label="Horários"
+        tools:layout="@layout/fragment_time" />
+    <fragment
+        android:id="@+id/notifications"
+        android:name="com.mapaetec.localize_se.Notifications"
+        android:label="Notificações"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/user"
+        android:name="com.mapaetec.localize_se.User"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_user" />
+
+</navigation>
